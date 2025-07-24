@@ -1,0 +1,117 @@
+.login_form{
+    width: 400px;
+    position: fixed;
+    top: 150px;
+    left: 40%;
+    background-color: white;
+    padding-bottom: 25px;
+    border: 1px solid;
+    text-align: center;
+    border-radius: 5px ;
+    
+  }
+
+  .login_form_head{
+    margin-bottom: 15px;
+    height: 40px;
+    padding-top:10px;
+    padding-bottom: 40px;
+    background-color: black;
+    color: white;
+    
+  }
+
+  .login_form_head p{
+    font-size: 21px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .login_ad{
+    width: 80%;
+    margin: auto;
+  }
+
+  .body{
+    position: relative;
+    background-color: silver;
+  }
+  .nav_vertical{
+        border: 2px solid black;
+        background-color: rgb(47, 45, 45);
+        width: 270px;
+        height: 900px;
+        position: relative;
+        
+        
+  }
+  .nav{
+    position: fixed;
+    top:120px;
+  }
+  .nav_vertical h1{
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    margin: 15px 0;
+    position: fixed;
+    left:40px;
+  }
+  .header{
+    background-color:rgb(47, 45, 45) ;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 28px;
+    position: sticky;
+    top:0;
+    z-index: 10;
+    border-bottom: 2px solid white;
+  }
+  .header h1{
+    margin-left: 10px;
+  }
+  
+  .active{
+    padding : 10px 90%;
+  }
+  .btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  .nav-link{
+    color: white;
+    margin:0px 5px;
+  }
+  
+  .item1{
+    position: absolute;
+    top:100px;
+    left:320px;
+    height: 350px;
+    width: 78%;
+  }
+  .booked-head{
+    display: flex;
+    justify-content: space-between;
+  }
+.booked-head h3{
+        margin-left: 15px;
+        padding-top: 10px;
+  }
+  .item2{
+    position: absolute;
+    top:540px;
+    left:320px;
+    height: 350px;
+    width: 78%;
+  }
+  .item2 h3{
+        margin-left: 15px;
+        padding-top: 10px;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
